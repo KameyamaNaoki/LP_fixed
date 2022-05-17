@@ -168,7 +168,7 @@ body {
     text-align: left;
     font-size: max(1.55rem, 1.34vw);
     margin-top: max(1.3rem, 1vw);
-    line-height: 3rem;
+    line-height: max(3rem, 2vw);
   }
   #content__guest--I {
     margin-top: max(0.4vw, 4rem);
@@ -374,6 +374,11 @@ body {
     font-size: max(0.9vw, 1.16rem);
     margin-top: max(0.3vw, 0.3rem);
   }
+  #access__hotel--charge--url{
+    font-weight: normal;
+    font-size: max(0.9vw, 1.16rem);
+    margin-top: max(0.3vw, 0.2rem);
+  }
   #access__map h3 {
     text-align: center;
     font-weight: bold;
@@ -549,7 +554,7 @@ body {
     width: 100vw;
   }
   #time-day div {
-    font-size: 5.2vw;
+    font-size: 5vw;
     font-weight: bold;
     letter-spacing: 1.5px;
   }
@@ -773,7 +778,7 @@ body {
   #access__hotel--parking p {
     width: 100%;
     font-weight: normal;
-    font-size: 3.7vw;
+    font-size: 3.54vw;
   }
   #access__hotel--charge h4 {
     font-weight: bold;
@@ -782,9 +787,14 @@ body {
   #access__hotel--charge--free {
     width: 100%;
     font-weight: normal;
-    font-size: 3.7vw;
+    font-size: 3.54vw;
   }
   #access__hotel--charge--atn {
+    width: 100%;
+    font-weight: normal;
+    font-size: 2.6vw;
+  }
+  #access__hotel--charge--url {
     width: 100%;
     font-weight: normal;
     font-size: 2.6vw;
